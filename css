@@ -1,0 +1,17 @@
+:root {
+  --accent: #7cf2d4;
+}
+.nav-link {
+  color: rgba(255,255,255,0.7);
+  transition: color 0.3s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent);
+}
+.project-card {
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-4px);
+}
